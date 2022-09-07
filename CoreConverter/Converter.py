@@ -4,9 +4,6 @@ import pillow_heif
 from PIL import Image
 
 
-# C:\\Users\\User\\Desktop\\IMG_2908.HEIC
-
-
 class Converter:
     def __init__(self, save_directory: str):
         self.save_directory = save_directory
@@ -28,3 +25,4 @@ class Converter:
 
         img_object.save(output_file_path)
 
+        return output_file_path
