@@ -1,0 +1,2 @@
+Pillow==9.2.0
+pillow_heif==0.6.1
